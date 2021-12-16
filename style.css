@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(111, 209, 144, 0.467);
+}
+.logotext{
+    margin-top: auto; 
+    list-style: none; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+}
+.nav-item{
+    margin-left: 20px;
+}
+.image_logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.hero_jumbotron {
+    display: flex;
+    align-items: center;
+    min-height: 380px;
+    width: 100%;
+    text-align: center;
+    background-image: url("bg_halaman.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero__inner {
+    background-color: #f6f6e9;
+    opacity: 0.8;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+}
+.hero__title {
+    color: #000;
+    font-weight: 500;
+    font-size: 36px;
+}
+.hero__tagline {
+    color: #000;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 5px;
+    text-align: center;
+  }
+  .teks {
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .gambar{
+      width: 100%;
+      align-items: center;
+  }
+
+  @media screen and (max-width:990px) {
+      .gambar{
+          width: 50%;
+      }
+  }
+  .judulmat {
+      padding: 1px 3px;
+      text-align: center;
+  }
+  .video {
+      margin-top: auto;
+  }
